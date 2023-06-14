@@ -1,0 +1,320 @@
+
+<footer class="a">
+<div class="container b">
+    <div class="item">
+        <ul>
+            <li class="title"> Serach Health Product</li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">Goodkart</a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">vitamin and supplement</a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">protein and fitness</a>
+            </li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">skin and hair care</a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">food and drink</a>
+            </li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">childcare</a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="item">
+        <ul>
+            <li class="title"> Serach doctor</li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">search by cities </a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">search by sepciality</a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">by loclality</a>
+            </li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">search by price</a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">search by ranking</a>
+            </li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">search by experience</a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="item">
+        <ul>
+            <li class="title"> raed health article</li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">health wiki</a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">health tips index</a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">health quizzes</a>
+            </li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">health index question</a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">lab related</a>
+            </li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">medicnes</a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="item">
+        <ul>
+            <li class="title"> raed about us</li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">about us</a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">contact us</a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">carrers</a>
+            </li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">blog</a>
+            </li>
+
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">term of use</a>
+            </li>
+            <li>
+                <a style="color: #fff; font-size: 13px;" href="">press</a>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+
+</div>
+
+</footer>
+css
+*{
+    margin: 0px;
+    width: 0px;
+}
+.a{
+    border-top: none;
+    background-color: #831500;
+    color: #fff;
+    padding: 0 8px 16px;
+    display: block;
+    font-weight: 500;
+}
+.b{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.item{
+    flex: 2 0;
+    padding-top: 16px;
+    padding-left: 3%;
+
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+
+}
+.title{
+    color: #ccc;
+    font-size: 13px;
+    margin-bottom: 15px;
+
+}
+.c{
+    max-width: 1200px;
+
+}
+.row{
+    width: 100%;
+    display: flex;
+
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: #ccc;
+}
+.logo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.logohe{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+ <style>
+       body{
+			background: #eee;
+		}
+		.card{
+			width: 300px;
+			height: 300px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			line-height: 300px;
+			margin: -150px;
+			background: white;
+			color: #03446A;
+			text-align: center;
+			font-size: 40px;
+			box-shadow: 0 0 15px rgba(0,0,0,0.1);
+			/* animation-name:pn; */
+			/* animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate; */
+			/* animation-timing-function: ease; */
+			animation:pn 2s infinite alternate ease ;
+
+}
+@keyframes pn{
+	0%{
+		border-radius:0%;
+	}
+	25%{
+		background-color:red;
+	}
+	50%{
+		background-color:blue;
+	}
+	100%{
+		border-radius:50%;
+		background-color: yellow;
+	}
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+<div class="logo">
+    <span class="logohe"></span>
+<a href="/pic/dentistlog.jpg"></a>
+</div>
+        </div><!--container-->
+    </nav>
+    <div class="container-fluid">
+        <img src="/pic/WhatsApp Image 2023-06-09 at 8.03.10 PM.jpeg" class="w-100">
+    </div><!--container ned-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h1>
+                    1231
+                </h1>
+                <p> likes the people</p>
+            </div>
+            <div class="col-md-3">
+                <h1>
+                    1200
+                </h1>
+                <p> people visit the clinic</p>
+            </div>
+            <div class="col-md-3">
+                <h1>
+                    1100
+                </h1>
+                <p> people statisfy with treatement</p>
+            </div>
+            <div class="col-md-3">
+                <h1>
+                    923
+                </h1>
+                <p> comment</p>
+            </div>
+        </div><!--row end-->
+
+    </div><!--container-->
+    <br>
+    <br>
+    <br>
+    <div class="text-center">
+    <h1 style="font-size: 90px; color: cornflowerblue;">
+        Gangil dental care center
+    </h1>
+    </div>
+    <div class="container-fluid text-center">
+        <h5 style="color: blue; font-size: 30px;">OUR SERVICES</h5>
+<h1 style="color: black; font-size: 40PX;"><b>WHAT  WE PROVIDE</b></h1>
+        <div class="row">
+            <div class="col-md-7">
+
+                <a href=""><i class="fa-regular fa-tooth"></i> ROOT CANAL</a>
+            
+            <p> root canal treatment is a dental procedure to remove inflamed Root canal is a treatment to repair and save a badly damaged or infected tooth instead of removing it. The term "root canal" comes from cleaning of the canals inside a tooth's root. Decades ago</p>
+           
+        <br>
+        <br>
+        <a href=""><i class="fa-duotone fa-toothbrush"></i> <B>ALINGMENT OF TEETH</B></a>
+                <p>
+                    Teeth alignment is typically corrected through two methods: braces or aligners.
+                </p>
+                <br>
+                <br>
+                <a href=""><B style="text-decoration: none;">COSMETIC TEETH</B></a>
+                <P>
+                    Cosmetic dentistry is the branch of dentistry that focuses on improving the appearance of your smile. </P>
+      <BR>
+        <BR>
+            <A href=""
+                </div>
+
+        </div><!--roe-->
+
+    </div><!--container-->
